@@ -9,3 +9,22 @@ In each line an edge (i, j) is represented by i j.
 
 Output: Vector values are printed to 7 decimal digits. If the graph has N GREATER than 10, then the values for iterations, initial value are automatically set to 0 and -1 respectively and the hub/authority/pageranks at the stopping iteration (i.e t) are only shown. 
 Stopping condition: At each iteration the current and previous iteration values are compared for every vertex and if the difference is less than error-rate for each vertex, only then we stop computation at that iteration.
+
+samplegraph:
+4 4
+0 2
+0 3
+1 0
+2 1
+
+STEPS TO COMPILE AND EXECUTE:
+A] HITS
+1. javac hits5527.java 
+
+2. java hits5527 <iteration> <initialvalue> <filename>
+
+B] PAGERANK
+
+1. javac pgrk5527.java
+
+2. java pgrk5527 <iteration> <initialvalue> <filename>
